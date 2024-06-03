@@ -50,7 +50,8 @@
             "@php artisan migrate:fresh --seed",
             "@php artisan passport:client --personal",
             "@php artisan passport:client --password",
-            "@php artisan passport:client --client"
+            "@php artisan passport:client --client",
+            "@php artisan passport:keys"
         ]
     },
     "extra": {
